@@ -1,25 +1,26 @@
 import AboutPage from "@/pages/AboutPage";
-import { BreadcrumbJsonLd } from "@/components/JsonLd";
+import { BreadcrumbJsonLd, AboutPageJsonLd } from "@/components/JsonLd";
 
 export const metadata = {
-  title: "About Us & Engineering Principles",
+  title: "About Us | Enterprise Business Platforms Development Company",
   description:
-    "Learn about Redmun Digitech's software engineering principles, 1688 sourcing automation mission, operational timeline, and team architects.",
+    "Redmun Digitech is a Dhaka-based enterprise business platform development company specializing in 1688 API sourcing platforms, e-commerce, shipping management, restaurant software, and custom web solutions.",
   alternates: {
     canonical: "https://redmun.com/about",
   },
   openGraph: {
-    title: "About Us & Engineering Principles | Redmun Digitech",
+    title: "About Us | Enterprise Business Platforms Development Company | Redmun Digitech",
     description:
-      "Decoupled software engineering firm building scalable digital platforms for cross-border sourcing, freight logistics, and enterprise commerce.",
+      "Redmun Digitech is a Dhaka-based enterprise business platform development company specializing in 1688 API sourcing platforms, e-commerce, shipping management, restaurant software, and custom web solutions.",
     url: "https://redmun.com/about",
     siteName: "Redmun Digitech",
     type: "website",
   },
   twitter: {
     card: "summary_large_image",
-    title: "About Us & Engineering Principles | Redmun Digitech",
-    description: "Learn about Redmun Digitech's mission, engineering principles, and team architects.",
+    title: "About Us | Enterprise Business Platforms Development Company | Redmun Digitech",
+    description:
+      "Redmun Digitech is a Dhaka-based enterprise business platform development company specializing in 1688 API sourcing platforms, e-commerce, shipping management, restaurant software, and custom web solutions.",
   },
 };
 
@@ -32,6 +33,7 @@ export default function Page() {
   return (
     <>
       <BreadcrumbJsonLd items={breadcrumbs} />
+      <AboutPageJsonLd />
       <AboutPage />
     </>
   );

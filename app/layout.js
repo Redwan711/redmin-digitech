@@ -20,14 +20,15 @@ const plusJakartaSans = Plus_Jakarta_Sans({
 export const metadata = {
   metadataBase: new URL("https://redmun.com"),
   title: {
-    default: "Redmun Digitech | Enterprise Management & Automation Platforms",
+    default: "Redmun Digitech | Enterprise Business Platforms Development Company",
     template: "%s | Redmun Digitech",
   },
   description:
-    "Enterprise management platform built for growing businesses. Specialized digital architectures for 1688 API wholesale sourcing, international shipping manifests, restaurant POS chains, and headless e-commerce.",
+    "Redmun Digitech is a Dhaka-based enterprise business platform development company specializing in 1688 API sourcing platforms, e-commerce, shipping management, restaurant software, and custom web solutions.",
   keywords: [
     "Redmun Digitech",
     "Redmin Digitech",
+    "Enterprise Business Platforms",
     "1688 API Sourcing",
     "Headless WordPress",
     "Next.js Enterprise Systems",
@@ -55,9 +56,9 @@ export const metadata = {
     },
   },
   openGraph: {
-    title: "Redmun Digitech | Enterprise Management & Automation Platforms",
+    title: "Redmun Digitech | Enterprise Business Platforms Development Company",
     description:
-      "Enterprise management platforms and custom software architectures. Specialized solutions for 1688 API sourcing, cargo logistics, and high-concurrency digital platforms.",
+      "Redmun Digitech is a Dhaka-based enterprise business platform development company specializing in 1688 API sourcing platforms, e-commerce, shipping management, restaurant software, and custom web solutions.",
     url: "https://redmun.com",
     siteName: "Redmun Digitech",
     locale: "en_US",
@@ -73,9 +74,9 @@ export const metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Redmun Digitech | Enterprise Management & Automation Platforms",
+    title: "Redmun Digitech | Enterprise Business Platforms Development Company",
     description:
-      "Enterprise management platforms, automated 1688 sourcing systems, and headless web architecture.",
+      "Redmun Digitech is a Dhaka-based enterprise business platform development company specializing in 1688 API sourcing platforms, e-commerce, shipping management, restaurant software, and custom web solutions.",
     images: ["/Redmun-final.svg"],
   },
   icons: {

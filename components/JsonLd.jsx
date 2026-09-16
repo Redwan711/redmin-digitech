@@ -18,11 +18,15 @@ export function OrganizationJsonLd() {
     ],
     "url": "https://redmun.com",
     "logo": "https://redmun.com/Redmun-final.svg",
-    "description": "Enterprise software engineering firm specializing in automated 1688 sourcing systems, headless web architecture, logistics management, and POS networks.",
+    "description": "Redmun Digitech is a Dhaka-based enterprise business platform development company specializing in 1688 API sourcing platforms, e-commerce, shipping management, restaurant software, and custom web solutions.",
+    "parentOrganization": {
+      "@type": "Organization",
+      "name": "Redmun"
+    },
     "foundingDate": "2024",
     "address": {
       "@type": "PostalAddress",
-      "streetAddress": "House 20, Road 12, Sector 03, Uttara",
+      "streetAddress": "House 16, Road 12, Sector 03, Uttara",
       "addressLocality": "Dhaka",
       "addressRegion": "Dhaka Division",
       "postalCode": "1230",
@@ -236,7 +240,7 @@ export function LocalBusinessJsonLd() {
     "priceRange": "$$$",
     "address": {
       "@type": "PostalAddress",
-      "streetAddress": "House 20, Road 12, Sector 03, Uttara",
+      "streetAddress": "House 16, Road 12, Sector 03, Uttara",
       "addressLocality": "Dhaka",
       "addressRegion": "Dhaka Division",
       "postalCode": "1230",
@@ -269,3 +273,28 @@ export function LocalBusinessJsonLd() {
     />
   );
 }
+
+/**
+ * AboutPage Schema JSON-LD
+ */
+export function AboutPageJsonLd() {
+  const schema = {
+    "@context": "https://schema.org",
+    "@type": "AboutPage",
+    "@id": "https://redmun.com/about#webpage",
+    "url": "https://redmun.com/about",
+    "name": "About Us | Enterprise Business Platforms Development Company | Redmun Digitech",
+    "description": "Redmun Digitech is a Dhaka-based enterprise business platform development company specializing in 1688 API sourcing platforms, e-commerce, shipping management, restaurant software, and custom web solutions.",
+    "mainEntity": {
+      "@id": "https://redmun.com/#organization"
+    }
+  };
+
+  return (
+    <script
+      type="application/ld+json"
+      dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }}
+    />
+  );
+}
+

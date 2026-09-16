@@ -118,14 +118,14 @@ export default function Footer() {
               />
             </Link>
             <p className="text-sm text-text-muted max-w-sm leading-relaxed">
-              Enterprise management platforms built for growing businesses. Custom shipping modules, API automation portals, and high-performance architecture.
+              Redmun Digitech is a Dhaka-based enterprise business platforms development company specializing in 1688 API sourcing platforms, e-commerce solutions, shipping management systems, restaurant business software, and custom digital platforms built for business growth.
             </p>
 
             {/* Office Contact Info */}
             <div className="space-y-2 text-xs text-text-muted border-t border-border-dark pt-4">
               <div className="flex items-center gap-2">
                 <MapPin className="w-3.5 h-3.5 text-brand shrink-0" />
-                <span>House 20, Road 12, Sector 03, Uttara, Dhaka</span>
+                <span>House 16, Road 12, Sector 03, Uttara, Dhaka</span>
               </div>
               <div className="flex items-center gap-2">
                 <Phone className="w-3.5 h-3.5 text-brand shrink-0" />
@@ -264,7 +264,7 @@ export default function Footer() {
         {/* Bottom Bar */}
         <div className="mt-16 pt-8 border-t border-border-dark flex flex-col gap-6 sm:flex-row sm:items-center sm:justify-between">
           <p className="text-xs text-text-muted leading-relaxed">
-            © {currentYear} Redmun Digitech. All rights reserved.
+            © {currentYear} Redmun Digitech. All rights reserved. Redmun Digitech is a wing of Redmun company.
           </p>
 
           {/* Social Icons */}

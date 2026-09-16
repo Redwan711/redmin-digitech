@@ -2,16 +2,16 @@ import HomePage from "@/pages/HomePage";
 import { FaqJsonLd } from "@/components/JsonLd";
 
 export const metadata = {
-  title: "Redmun Digitech | Enterprise Management & Automation Platforms",
+  title: "Redmun Digitech | Enterprise Business Platforms Development Company",
   description:
-    "Enterprise management platforms built for growing businesses. Specialized digital architectures for 1688 API wholesale sourcing, international shipping manifests, restaurant POS chains, and headless e-commerce.",
+    "Redmun Digitech is a Dhaka-based enterprise business platform development company specializing in 1688 API sourcing platforms, e-commerce, shipping management, restaurant software, and custom web solutions.",
   alternates: {
     canonical: "https://redmun.com",
   },
   openGraph: {
-    title: "Redmun Digitech | Enterprise Management & Automation Platforms",
+    title: "Redmun Digitech | Enterprise Business Platforms Development Company",
     description:
-      "Enterprise management platforms built for growing businesses. Automated 1688 sourcing systems, cargo manifests, and decoupled headless architectures.",
+      "Redmun Digitech is a Dhaka-based enterprise business platform development company specializing in 1688 API sourcing platforms, e-commerce, shipping management, restaurant software, and custom web solutions.",
     url: "https://redmun.com",
   },
 };

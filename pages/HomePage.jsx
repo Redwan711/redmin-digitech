@@ -215,20 +215,21 @@ export default function HomePage() {
             <HeroScrollReveal className="lg:col-span-6 space-y-8">
               <span className="reveal-item opacity-0 inline-flex items-center gap-2 px-4 py-1.5 rounded-full text-xs font-semibold uppercase tracking-widest bg-white/5 border border-white/10 text-primary">
                 <span className="w-2 h-2 rounded-full bg-primary animate-pulse" />
-                Next-Gen Enterprise Software
+                Enterprise Business Platforms
               </span>
 
-              <h1 className="reveal-item opacity-0 text-4xl sm:text-5xl md:text-6xl lg:text-[4rem] font-bold leading-[1.08] tracking-tight">
-                Build Smarter.{" "}
-                <span className="text-gradient-brand">Ship Faster.</span>
-                <br />
-                <span className="text-text-muted text-3xl sm:text-4xl md:text-5xl lg:text-[3.25rem] font-medium mt-2 block">
-                  Enterprise Platforms That Scale.
+              <h1 className="reveal-item opacity-0 text-4xl sm:text-5xl md:text-6xl lg:text-[3.85rem] font-bold leading-[1.1] tracking-tight">
+                Next-Generation{" "}
+                <span className="text-gradient-brand">Enterprise Software</span>{" "}
+                Solution
+                <span className="block text-2xl sm:text-3xl md:text-4xl lg:text-[2.75rem] font-light mt-3 tracking-normal">
+                  <span className="text-text-muted font-light">Build Smart. </span>
+                  <span className="text-gradient-brand font-normal">Grow Faster.</span>
                 </span>
               </h1>
 
               <p className="reveal-item opacity-0 text-base md:text-lg text-text-muted max-w-xl leading-relaxed">
-                Redmun Digitech engineers high-performance headless platforms, from automated 1688 sourcing portals and shipping ERPs to custom branded e-commerce systems, designed to eliminate operational bottlenecks and accelerate revenue growth.
+                Redmun Digitech is a Dhaka, Bangladesh-based enterprise business platform development company specializing in 1688 API sourcing platforms, e-commerce, shipping management, restaurant software, and custom web solutions.
               </p>
 
               <div className="reveal-item opacity-0 flex flex-wrap gap-4">

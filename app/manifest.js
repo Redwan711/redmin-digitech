@@ -4,10 +4,10 @@
  */
 export default function manifest() {
   return {
-    name: "Redmun Digitech - Enterprise Management Platforms",
+    name: "Redmun Digitech - Enterprise Business Platforms Development Company",
     short_name: "Redmun Digitech",
     description:
-      "Enterprise management platform built for growing businesses. Specialized digital solutions for 1688 API sourcing, shipping, restaurants, and headless commerce.",
+      "Redmun Digitech is a Dhaka-based enterprise business platform development company specializing in 1688 API sourcing platforms, e-commerce, shipping management, restaurant software, and custom web solutions.",
     start_url: "/",
     display: "standalone",
     background_color: "#0a0d14",

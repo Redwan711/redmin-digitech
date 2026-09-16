@@ -56,7 +56,7 @@ export default function ContactPage() {
               <div>
                 <h4 className="text-xs font-bold text-dark uppercase tracking-wider mb-1">Office Address</h4>
                 <p className="text-base text-dark font-bold">Redmun Digitech HQ</p>
-                <p className="text-xs text-text-secondary leading-relaxed">House 20, Road 12, Sector 03, Uttara, Dhaka</p>
+                <p className="text-xs text-text-secondary leading-relaxed">House 16, Road 12, Sector 03, Uttara, Dhaka</p>
               </div>
             </div>
 
