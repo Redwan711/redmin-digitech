@@ -39,7 +39,7 @@ export default function Header() {
     { name: "Industries", href: "/industries" },
     { name: "Portfolio", href: "/portfolio" },
     { name: "Case Studies", href: "/case-studies" },
-    { name: "Pricing", href: "/pricing" },
+    // { name: "Pricing", href: "/pricing" },
     { name: "Blog", href: "/blog", dropdown: blogCategories, type: "blog" },
     { name: "About", href: "/about" },
     { name: "Contact", href: "/contact" },

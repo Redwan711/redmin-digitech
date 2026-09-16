@@ -105,7 +105,14 @@ export default function PortfolioFilters() {
               className="group flex flex-col justify-between bg-white rounded-2xl border border-border p-6 shadow-sm hover:shadow-lg hover:-translate-y-1 transition-all duration-300 overflow-hidden"
             >
               <div>
-                {/* Project Image */}
+                {/* Category Tag */}
+                <div className="mb-4">
+                  <span className="inline-block text-[10px] font-bold uppercase tracking-wider text-brand bg-brand/5 px-3 py-1 rounded-full border border-brand/20 shadow-xs">
+                    {proj.tag}
+                  </span>
+                </div>
+
+                {/* Project Image — commented out until updated/ready
                 <div className="relative aspect-video w-full overflow-hidden rounded-xl bg-light mb-6 border border-border/60">
                   <Image
                     src={proj.image}
@@ -114,12 +121,8 @@ export default function PortfolioFilters() {
                     height={340}
                     className="object-cover w-full h-full group-hover:scale-105 transition-transform duration-500"
                   />
-                  <div className="absolute top-3 left-3">
-                    <span className="inline-block text-[10px] font-bold uppercase tracking-wider text-brand bg-white/95 backdrop-blur-xs px-2.5 py-1 rounded-full border border-brand/20 shadow-xs">
-                      {proj.tag}
-                    </span>
-                  </div>
                 </div>
+                */}
 
                 {/* Content */}
                 <h3 className="text-xl font-bold text-dark mb-2 group-hover:text-brand transition-colors">

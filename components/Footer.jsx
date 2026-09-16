@@ -71,7 +71,7 @@ export default function Footer() {
     { name: "About Redmun", href: "/about" },
     { name: "Our Portfolio", href: "/portfolio" },
     { name: "Case Studies", href: "/case-studies" },
-    { name: "Pricing Tiers", href: "/pricing" },
+    // { name: "Pricing Tiers", href: "/pricing" },
     { name: "Contact Support", href: "/contact" },
   ];
 
