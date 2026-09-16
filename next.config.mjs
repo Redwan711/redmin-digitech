@@ -2,6 +2,7 @@
 const nextConfig = {
   reactCompiler: true,
   images: {
+    formats: ["image/avif", "image/webp"],
     localPatterns: [
       {
         pathname: "/api/media",
@@ -48,6 +49,25 @@ const nextConfig = {
         pathname: "/**",
       },
     ],
+  },
+  async redirects() {
+    return [
+      {
+        source: "/resources",
+        destination: "/blog",
+        permanent: true,
+      },
+      {
+        source: "/solutions",
+        destination: "/industries",
+        permanent: true,
+      },
+      {
+        source: "/news/:slug",
+        destination: "/blog/:slug",
+        permanent: true,
+      },
+    ];
   },
 };
 

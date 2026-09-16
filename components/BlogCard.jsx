@@ -2,6 +2,7 @@
 
 import React, { useState } from "react";
 import Link from "next/link";
+import Image from "next/image";
 import { ArrowRight, Calendar } from "@/components/Icons";
 import { getProxiedImageUrl } from "@/utils/media-proxy";
 
@@ -50,11 +51,13 @@ export default function BlogCard({ post }) {
         {/* Post Image Container */}
         <div className="relative h-48 sm:h-56 w-full bg-dark/5 overflow-hidden border-b border-border">
           {imageUrl && !imgError ? (
-            <img
+            <Image
               src={imageUrl}
               alt={altText}
+              fill
+              sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
               onError={() => setImgError(true)}
-              className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
+              className="object-cover group-hover:scale-105 transition-transform duration-500"
               loading="lazy"
             />
           ) : (

@@ -52,11 +52,11 @@ export default function Footer() {
   ];
 
   const solutionLinks = [
-    { name: "Import & Logistics", href: "/solutions/import-logistics" },
-    { name: "Media & Editorial", href: "/solutions/media-editorial" },
-    { name: "Restaurant Chains", href: "/solutions/restaurant-chains" },
-    { name: "Corporate ERP", href: "/solutions/corporate-erp" },
-    { name: "Retail Automation", href: "/solutions/retail-automation" },
+    { name: "Import & Logistics", href: "/products/shipping-management" },
+    { name: "Media & Editorial", href: "/products/news-portal" },
+    { name: "Restaurant Chains", href: "/products/restaurant-management" },
+    { name: "Corporate ERP", href: "/products/company-profile" },
+    { name: "Retail Automation", href: "/products/ecommerce" },
   ];
 
   const blogLinks = [

@@ -1,5 +1,6 @@
 import React from "react";
 import Link from "next/link";
+import Image from "next/image";
 import {
   ArrowRight,
   BookOpen,
@@ -250,10 +251,12 @@ function FeaturedArticleHero({ post }) {
         {/* Image Panel */}
         <div className="relative h-64 lg:h-auto lg:min-h-[320px] overflow-hidden">
           {rawImageUrl ? (
-            <img
+            <Image
               src={rawImageUrl}
               alt={post.title || "Featured article"}
-              className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700"
+              fill
+              sizes="(max-width: 1024px) 100vw, 50vw"
+              className="object-cover group-hover:scale-105 transition-transform duration-700"
               loading="lazy"
             />
           ) : (

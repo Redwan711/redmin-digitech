@@ -2,6 +2,7 @@
 
 import React, { useState } from "react";
 import Link from "next/link";
+import Image from "next/image";
 import {
   ArrowLeft,
   Calendar,
@@ -216,13 +217,16 @@ export default function BlogPostPage({ post, relatedPosts = [] }) {
         <div className="bg-white rounded-3xl p-3 sm:p-4 border border-border shadow-2xl overflow-hidden">
           {imageUrl && !imgError ? (
             <div className="relative h-72 sm:h-[420px] md:h-[500px] w-full rounded-2xl overflow-hidden bg-dark/5">
-              <img
+              <Image
                 src={imageUrl}
                 alt={altText}
+                fill
+                priority
+                sizes="(max-width: 1280px) 100vw, 1200px"
                 onError={() => setImgError(true)}
-                className="w-full h-full object-cover"
+                className="object-cover"
               />
-              <div className="absolute inset-0 bg-gradient-to-t from-dark/40 via-transparent to-transparent" />
+              <div className="absolute inset-0 bg-gradient-to-t from-dark/40 via-transparent to-transparent pointer-events-none" />
             </div>
           ) : (
             <div className="h-64 sm:h-96 w-full rounded-2xl bg-gradient-to-br from-dark via-dark-secondary to-dark-tertiary flex items-center justify-center p-8 text-center relative overflow-hidden border border-border-dark">
@@ -348,10 +352,12 @@ export default function BlogPostPage({ post, relatedPosts = [] }) {
 
             {/* Author Bio Box */}
             <div className="bg-white rounded-3xl p-8 border border-border shadow-sm flex flex-col sm:flex-row items-center justify-center sm:items-start gap-6 text-center sm:text-left">
-              <div className="w-16 h-16 rounded-2xl bg-dark overflow-hidden shrink-0 border border-border-dark shadow-sm flex items-center justify-center p-2">
-                <img
+              <div className="w-16 h-16 rounded-2xl bg-dark overflow-hidden shrink-0 border border-border-dark shadow-sm flex items-center justify-center p-2 relative">
+                <Image
                   src="/redmun0-icon.png"
                   alt="Redmun Engineering Team"
+                  width={64}
+                  height={64}
                   className="w-full h-full object-contain"
                 />
               </div>
