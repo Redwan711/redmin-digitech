@@ -84,12 +84,6 @@ a {
   color: white;
 }
 
-/* Scrollbar */
-::-webkit-scrollbar { width: 6px; }
-::-webkit-scrollbar-track { background: var(--color-light); }
-::-webkit-scrollbar-thumb { background: var(--color-light-tertiary); border-radius: 9999px; }
-::-webkit-scrollbar-thumb:hover { background: var(--color-text-muted); }
-
 /* ========================================
    Custom Utilities
    ======================================== */

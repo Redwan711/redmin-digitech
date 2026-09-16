@@ -34,8 +34,8 @@ export default function HomePage() {
   /* ──────────────────── Data ──────────────────── */
 
   const stats = [
-    { value: 250, suffix: "+", label: "Projects Delivered", desc: "Production-grade systems shipped" },
-    { value: 35, suffix: "+", label: "Business Clients", desc: "Active enterprise accounts" },
+    { value: 50, suffix: "+", label: "Projects Delivered", desc: "Production-grade systems shipped" },
+    { value: 20, suffix: "+", label: "Business Clients", desc: "Active enterprise accounts" },
     { value: 7, suffix: "", label: "Core Products", desc: "Specialized SaaS platforms" },
     { value: 99, suffix: ".9%", label: "Platform Uptime", desc: "SLA-backed availability" },
   ];

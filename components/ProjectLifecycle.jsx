@@ -258,7 +258,7 @@ export default function ProjectLifecycle() {
                 {/* Metric 3 */}
                 <div className="w-full sm:w-auto text-left">
                   <div className="flex items-baseline gap-1">
-                    <span className="text-2xl font-black text-white">300+</span>
+                    <span className="text-2xl font-black text-white">50+</span>
                   </div>
                   <p className="text-[10px] uppercase font-bold tracking-wider text-text-muted mb-1.5">Projects Delivered</p>
                   <div className="w-24 h-1.5 rounded-full bg-white/5 overflow-hidden">
